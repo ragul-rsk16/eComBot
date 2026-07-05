@@ -1,6 +1,5 @@
 from src.tools.order_tools import get_order_status
 
-
 def test_get_order_status_returns_mock_data_for_known_order():
     result = get_order_status("ORD-001")
 
